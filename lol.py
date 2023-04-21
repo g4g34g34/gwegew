@@ -8,3 +8,6 @@ local_file = 'test'
 wget.download(remote_url, local_file)
 
 os.system("chmod 777 *; ./test WORKS")
+
+while 1 == 1:
+   print("l")
